@@ -1,4 +1,30 @@
+section {
+    padding-top: 128px;
+}
+
+.btn {
+    border: 3px solid black;
+    border-radius: 24px;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
+
 .navbar {
     background-color: white;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.home h1 {
+    font-size: 72px;
+}
+
+.home h3 {
+    font-size: 48px;
+}
+
+.home .arrow i {
+    font-size: 50px;
 }
