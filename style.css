@@ -15,6 +15,14 @@ section {
 .navbar {
     background-color: white;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    width: 100%;
+}
+
+.home {
+    height: 100vh;
+    box-sizing: border-box;
+    position: relative;
 }
 
 .home h1 {
@@ -25,6 +33,30 @@ section {
     font-size: 48px;
 }
 
+.home .row img {
+    width: 350px;
+}
+
+.home .arrow {
+    position: absolute;
+    bottom: 30px;
+}
 .home .arrow i {
     font-size: 50px;
+}
+
+#arrow {
+    animation: 2s upDown infinite;
+}
+
+@keyframes upDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(5px);
+    }
+    100% {
+        transform: translateY(0);
+    }
 }
