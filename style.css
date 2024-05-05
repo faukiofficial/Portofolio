@@ -57,7 +57,13 @@ section {
 }
 
 .profile {
-    padding-top: 50px;
+    padding-top: 80px;
+    min-height: 100vh;
+}
+
+.contact {
+    padding-top: 20px;
+    margin-bottom: 40px;
 }
 
 .profile-exp-item-header {
@@ -68,6 +74,20 @@ section {
 
 .profile-exp-item-detail {
     display: none;
+}
+
+.contact .d-flex p {
+    margin: 0 5px;
+    font-size: 12px;
+}
+
+.row i {
+    font-size: 30px;
+}
+
+.contact-form {
+    border: 1px solid gainsboro;
+    padding: 32px;
 }
 
 @keyframes upDown {
